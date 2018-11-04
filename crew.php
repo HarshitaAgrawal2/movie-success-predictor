@@ -5,7 +5,7 @@
 	<title>predict movie</title>
 	<style>
 		body {
-		    background-image: url("images/crew.PNG");
+		    background-image: url("crew.PNG");
 		    background-repeat: repeat;
 		    background-color: #cccccc;
 		}
