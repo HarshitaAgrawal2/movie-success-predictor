@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>predict movie</title>
+	<style>
+		body {
+		  margin: 0;
+		  font-family: Arial, Helvetica, sans-serif;
+		}
+
+		.hero-image {
+		  background-image: url("images/predict.PNG");
+		  background-color: #cccccc;
+		  height: 500px;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		  position: relative;
+		}
+
+		.hero-text {
+		  text-align: center;
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+		  color: #37474F;
+		  background-color: #E3F2FD;
+		  padding:0 10px;
+		}
+
+			input[type=submit] {
+		    width: 100%;
+		    background-color: #2962FF;
+		    color: white;
+		    padding: 14px 20px;
+		    margin: 8px 0;
+		    border: none;
+		    border-radius: 4px;
+		    cursor: pointer;
+		}
+
+		input[type=submit]:hover {
+		    background-color: #1A237E;
+		}
+
+		.formDiv {
+
+		    border-radius: 5px;
+		    background-color: #B3E5FC;
+		    padding: 20px;
+		    width:25%;
+		    float:left;
+		    font-size:20px;
+		}
+		#div1{
+			margin:5% 4% 5% 16%;
+		}
+		#div2{
+			margin:5% 10% 5% 8%;
+		}
+		label{
+			color:#263238;
+		}
+	</style>
+</head>
+<body>
+	<div class="hero-image">
+  		<div class="hero-text">
+    		<h1 style="font-size:50px">Movie Success Prediction</h1>
+   			<h2>Know flop, hit, super-hit movies before release.</h2>
+   			<h3>Enjoy!</h3>
+  		</div>
+	</div>
+	<div class="formDiv" id="div1">
+		<form action="name.php">
+			<label>Search by Movie Name</label>
+			<input type="submit" value="Proceed">
+		</form>
+	</div>
+	<div class="formDiv" id="div2">
+		<form action="crew.php">
+			<label>Search by Film Crew</label>
+			<input type="submit" value="Proceed">
+		</form>
+	</div>
+</body>
+</html>
