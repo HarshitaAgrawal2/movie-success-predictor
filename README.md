@@ -1,3 +1,5 @@
-# predictMovie
+# Movie success predictor
 
-THIS WEB APPLICATION CAN HELP YOU KNOW WHICH MOVIE WOULD BE THE SUPER-HIT OR HIT OR FLOP EVEN BEFORE THEY ARE RELEASED AND THUS AUDIENCE CAN DECIDE WHICH MOVIE TO WATCH. THIS APPLICATION IS ALSO BENEFICIAL FOR FILM MAKERS TO PREDICT MOVIE SUCCESS CLASS FOR A FILM CREW. 
+Its a web application designed for filmmakers to predict movie success for a particular set of film crew combinations.
+
+It predicts movie's success (super-hit, hit, flop).
